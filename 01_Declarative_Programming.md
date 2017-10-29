@@ -124,3 +124,14 @@ so we can glue them together using `>>=` now.
 main =
   getLine >>= reactToInput
 ```
+
+Of course, `>>=` and `>>` can be arbitrarily chained,
+so we could add another job or "reactor" at the beginning or end.
+
+```haskell
+main =
+  putStrLn "Alright, here it goes - just enter something!"
+  >> getLine
+  >>= reactToInput
+  >> putStrLn "And we're done!"
+```
