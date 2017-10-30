@@ -66,7 +66,7 @@ It is a function taking a string and returning `IO ()`
 (IO unit), that is an IO value expecting a callback of type
 `() -> IO something`.
 
-`()` is a bit like `null`, `nil`, or `None` in other languages.
+`()` is a bit like `void` in other languages.
 
 As you have seen how to attach callbacks you might ask by now
 how to actually do things.
