@@ -19,7 +19,7 @@ main =
 
 We can run this script using `runhaskell`.
 
-```bash
+```
 $ runhaskell test.hs
 Hello World!
 Hello World!
